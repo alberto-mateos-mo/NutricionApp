@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# NutricionApp
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+The goal of NutricionApp is to provide an app to easily calculate Total Parental Nutrition values.
+
+## App Usage
+
+To use the app visit it [here](https://davidalbertofciencias.shinyapps.io/ProtocoloNutricion).
+
+## Installation
+
+If you wish to use from your PC you can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("alberto-mateos-mo/NutricionApp")
+```
+
+Just considered it is intended to be use in mobile phones.
+
+## Code of Conduct
+
+Please note that the NutricionApp project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
